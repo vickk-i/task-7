@@ -81,9 +81,7 @@ GROUP BY product
 df = pd.read_sql_query(query,conn)
 print(df)
 ```
-
-📊 The query results are loaded into a pandas DataFrame for further processing and visualization.
-
+product  total_qty  revenue 0   Apple         51     25.5 1  Banana         45     13.5 2  Orange         24      9.6
 ---
 
 ### **4. 📈 Visualizing Revenue by Product**
@@ -96,7 +94,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-🎨 A **bar chart** is generated showing revenue distribution by product. This helps in quickly identifying the top-performing items.
+![image](https://github.com/user-attachments/assets/10ae0733-678a-4d80-92cd-210f7adc482f)
 
 ---
 
@@ -111,7 +109,7 @@ plt.tight_layout()
 plt.savefig("sales_chart.png")
 ```
 
-📤 The plot is saved as a PNG image (`sales_chart.png`) for sharing, reporting, or documentation purposes.
+![image](https://github.com/user-attachments/assets/7d1895f1-f740-4099-8e84-51dd624d0bf8)
 
 ---
 
