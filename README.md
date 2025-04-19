@@ -84,8 +84,8 @@ print(df)
 ---
 
    product  total_qty  revenue                                                                    
-0   Apple         51     25.5
-1  Banana         45     13.5
+0   Apple         51     25.5                                                                    
+1  Banana         45     13.5                                                                    
 2  Orange         24      9.6
 ---
 ### **4. 📈 Visualizing Revenue by Product**
